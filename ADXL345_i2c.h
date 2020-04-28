@@ -20,7 +20,7 @@ class ADXL345{
         void calibrate(byte sensor_address, int x, int y, int z);
         void setRangeSetting(byte sensor_address, int val, bool full_res);
         void writeToI2C(byte sensor_address, byte _address, byte _val);
-        void readFromI2C(byte sensor_address, byte address, int num, byte _buff[]);
+        void readFromI2C(byte sensor_address, byte address, uint8_t num, byte _buff[]);
 
     private:
         int divider = 256;

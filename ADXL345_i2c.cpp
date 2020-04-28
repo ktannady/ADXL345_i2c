@@ -136,7 +136,7 @@ void ADXL345::writeToI2C(byte sensor_address, byte _address, byte _val) {
     Wire.endTransmission();
 }
 
-void ADXL345::readFromI2C(byte sensor_address, byte address, int num, byte _buff[]) {
+void ADXL345::readFromI2C(byte sensor_address, byte address, uint8_t num, byte _buff[]) {
     Wire.beginTransmission(sensor_address);
     Wire.write(address);
     Wire.endTransmission();
