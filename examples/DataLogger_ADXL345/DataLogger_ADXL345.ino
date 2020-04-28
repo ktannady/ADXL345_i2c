@@ -1,4 +1,4 @@
-#include "src/ADXL345_i2c.h"
+#include "ADXL345_i2c.h"
 #include <SD.h>
 #include <SPI.h>
 File myFile;
