@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:nano",
+    "configuration": "cpu=atmega328old",
+    "sketch": "DataLogger_ADXL345\\DataLogger_ADXL345.ino",
+    "port": "COM7"
+}
